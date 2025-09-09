@@ -1,0 +1,85 @@
+/* Fundo e fonte geral */
+body {
+    background-color: #ffc8cb;
+    font-family: Arial, sans-serif;
+    color: #6e2e34;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #5e7b9b;
+    font-size: 2.5em;
+}
+
+/* Subtítulos */
+h2 {
+    text-align: center;
+    color: #6e2e34;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #5e7b9b;
+}
+
+/* Frase de boas-vindas centralizada */
+.bem-vindo {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Menu de navegação */
+.menu {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 8px 16px;
+    background-color: #6e2e34;
+    color: #fffaf0;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #b46c72;
+}
+
+/* Caixa de receita */
+.receita {
+    background: #fffaf0;
+    border: 2px solid #5e7b9b;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Botão */
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #6e2e34;
+    color: #fffaf0;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #b46c72;
+}
